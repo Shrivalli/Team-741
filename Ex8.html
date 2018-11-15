@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Form</title>
+    <style>
+        #linear{
+            /*background-image:linear-gradient(black,white,red);*/
+            background-image:radial-gradient(black,white);
+        }
+    </style>
+</head>
+<body>
+    <div id="linear">
+    <p><h1><centre>Login Form</centre></h1></p>
+    <form action="Ex2.html">
+        First Name &nbsp&nbsp&nbsp&nbsp
+        <input type="text" name="fname" required /><br /><br />
+        Last Name
+        <input type="text" name="lname" required /><br /><br />
+        Address
+        <textarea rows="4" cols="5" required></textarea><br /><br />
+        Age
+        <input type="number" name="age" /><br/>
+        Gender
+        <input type="radio" name="gen" value="Male" checked />Male<br />
+        <input type="radio" name="gen" value="Female" />Female
+        <br /><br />
+
+        Select Id Proof
+        <input type="checkbox" name="id" value="aa" checked />Aadhar Card<br />
+        <input type="checkbox" name="id" value="vot" />VoterId<br /><br />
+        <input type="checkbox" name="id" value="Ba" />Bank Statement<br />
+        <input type="submit" value="submit" />
+        <input type="reset" value="reset" />
+
+    </form>
+</div>
+
+</body>
+</html>

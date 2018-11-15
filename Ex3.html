@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Table</title>
+    <!-- table,selector,border -->
+    <style>
+        #tab img{
+            height:200px;
+            width:100px;
+
+        }
+        #name{
+            font-size:30px;
+        }
+        .dashed{
+            border:dashed;
+            border-width:10px;
+            border-bottom-color:red;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.w3schools.com/html/html_intro.asp">HtmlIntro</a>
+
+   
+   <img src="Image/Dora.jpg" height="300" width="200" />
+<p> welcome</p>
+<div id="tab">
+    <table border="1">
+        <tr style="color:green">
+            <th>Sno</th>
+            <th>ShowName</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td><span id="name">Dora and friends</span></td>
+            <td><img src="Image/Dora.jpg" /></td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td colspan="3">Tom and Jerry</td>
+            <td><img src="Image/tom.jpg" /></td>
+        </tr>
+    </table>
+</div>
+
+    <div class="dashed">I am a dashed border</div>
+
+</body>
+</html>
